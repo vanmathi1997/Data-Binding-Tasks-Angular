@@ -1,0 +1,4 @@
+<p>From Parent</p>
+<input type="text" #inputText>
+<button (click)=send(inputText.value)>send</button>
+<app-component2 [inputMessage]="inputMessage"></app-component2>
